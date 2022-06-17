@@ -41,7 +41,7 @@ export const UserManagement: VFC = memo(() => {
             <WrapItem key={user.id} mx="auto">
               <UserCard
                 id={user.id}
-                imageUrl="https://source.unsplash.com/ransom"
+                imageUrl="https://source.unsplash.com/random"
                 userName={user.username}
                 fullName={user.name}
                 onClick={onClickUser}
